@@ -30,7 +30,7 @@ public class Mouse : MonoBehaviour
         Camx -= mousemoving.y * sensitivity;
         Camx = Mathf.Clamp(Camx, -90f, 90f);
 
-        PlayerCam.localEulerAngles = Vector3.left * Camx;
+        PlayerCam.localEulerAngles = Vector3.right * Camx;
 
         transform.Rotate(Vector3.up * mousemoving.x * sensitivity);
     }
