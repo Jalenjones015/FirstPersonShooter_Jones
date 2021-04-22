@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
     NavMeshAgent en;
     public GameObject Player;
     public float range;
+    public Animator animator;
+    public bool running;
 
     void Start()
     {
@@ -23,16 +25,13 @@ public class Enemy : MonoBehaviour
         {
             float random = Random.Range(0.0f, 1.0f);
             en.SetDestination(Player.transform.position);
+            animator.SetBool("Running", true);
         }
 
         if (!chase)
         {
             en.SetDestination(transform.position);
+            animator.SetBool("Running", false);
         }
     }
-
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.DrawWireSphere(transform.position, range);
-    //}
 }
