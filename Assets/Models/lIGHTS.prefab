@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -140,7 +140,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -221,7 +221,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -302,7 +302,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -383,7 +383,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -464,7 +464,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -496,7 +496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6384449899301076587}
   m_Layer: 0
-  m_Name: Fluorecent4SketchFab
+  m_Name: lIGHTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -657,7 +657,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -738,7 +738,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: d5a5e252e5dfd8f44b695a515ed460a9, type: 3}
+  - {fileID: 2100000, guid: fc21f27d54b0f5b4e8bd80cfe80291a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
