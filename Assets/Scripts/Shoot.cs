@@ -6,6 +6,8 @@ public class Shoot : MonoBehaviour
 {
     public Transform point;
     public GameObject bulletpre;
+    public GameObject dio;
+    public ParticleSystem particle;
     public float bullforce = 5f;
     public float betweenshots = .5f;
     private float tim = 0f;
@@ -34,6 +36,8 @@ public class Shoot : MonoBehaviour
         {
             shoot();
             tim = Time.time + betweenshots;
+            dio.GetComponent<AudioSource>().Play();
+            particle.GetComponent<ParticleSystem>().Play();
         }
     }
 

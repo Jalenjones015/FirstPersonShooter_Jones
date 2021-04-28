@@ -7,8 +7,11 @@ public class Movement : MonoBehaviour
     public KeyCode left;
     public KeyCode foward;
     public KeyCode back;
+    public KeyCode jump;
     public GameObject player;
     public float speed;
+    public Rigidbody rig;
+    public bool jumpin = true;
 
     private void FixedUpdate()
     {
@@ -30,6 +33,20 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(back))
         {
             player.transform.Translate(new Vector3(0, 0, speed * Time.deltaTime));
+        }
+
+        if (Input.GetKeyDown(jump) && jumpin)
+        {
+            rig.AddForce(new Vector2(0, 11), ForceMode.Impulse);
+            jumpin = false;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Floor")
+        {
+            jumpin = true;
         }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
+    public ParticleSystem particle;
     public int maxHPs = 2;
     public int curHPs;
     bool isdeads = false;
@@ -18,6 +19,7 @@ public class Damage : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             TakeHPs(1);
+            particle.GetComponent<ParticleSystem>().Play();
         }
     }
 

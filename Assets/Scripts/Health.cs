@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -34,20 +35,7 @@ public class Health : MonoBehaviour
     {
         if (curHP <= 0)
         {
-            if (isdead)
-            {
-                lose.SetActive(false);
-                Time.timeScale = 1;
-                isdead = false;
-                Debug.Log("unpause");
-            }
-            else
-            {
-                lose.SetActive(true);
-                Time.timeScale = 0;
-                isdead = true;
-                Debug.Log("unpause");
-            }
+            SceneManager.LoadScene("Lose");
         }
     }
 }
