@@ -19,7 +19,6 @@ public class WinGame : MonoBehaviour
     {
         Pages.text = Collected.ToString();
         Pages.text = "Pages Collected: " + Collected;
-
     }
 
     public void Pape()
@@ -30,5 +29,8 @@ public class WinGame : MonoBehaviour
     public void Gamedone()
     {
         SceneManager.LoadScene("Win");
+        Debug.Log("won");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }
