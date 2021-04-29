@@ -9,6 +9,7 @@ TagManager:
   - Door
   - Floor
   - Screen
+  - Gun
   layers:
   - Default
   - TransparentFX

@@ -29,8 +29,10 @@ public class Pause : MonoBehaviour
             pausemenu.SetActive(false);
             allon.SetActive(true);
             GameObject var = GameObject.Find("Player");
+            GameObject var1 = GameObject.Find("Pistol");
             var.GetComponent<Mouse>().enabled = true;
             var.GetComponent<Movement>().enabled = true;
+            var1.GetComponent<Shoot>().enabled = true;
         }
         else if(!ispaused)
         {
@@ -40,8 +42,10 @@ public class Pause : MonoBehaviour
             pausemenu.SetActive(true);
             allon.SetActive(false);
             GameObject var = GameObject.Find("Player");
+            GameObject var1 = GameObject.Find("Pistol");
             var.GetComponent<Mouse>().enabled = false;
             var.GetComponent<Movement>().enabled = false;
+            var1.GetComponent<Shoot>().enabled = false;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }

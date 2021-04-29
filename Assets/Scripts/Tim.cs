@@ -26,6 +26,8 @@ public class Tim : MonoBehaviour
         if (timer <= 0)
         {
             SceneManager.LoadScene("Lose");
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }

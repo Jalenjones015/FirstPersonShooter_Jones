@@ -5,16 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void StartGame()
+    public void StartGame1()
     {
-        SceneManager.LoadScene("L!");
+        SceneManager.LoadScene("L1");
         Debug.Log("Start1");
+        Time.timeScale = 1;
     }
 
-    public void StartGame1()
+    public void StartGame2()
     {
         SceneManager.LoadScene("L2");
         Debug.Log("Start2");
+        Time.timeScale = 1;
     }
 
     public void Credits()
@@ -45,11 +47,15 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("L1");
         Debug.Log("restrat");
+        Time.timeScale = 1;
+
     }
 
     public void restart2()
     {
         SceneManager.LoadScene("L2");
         Debug.Log("restrat");
+        Time.timeScale = 1;
+
     }
 }

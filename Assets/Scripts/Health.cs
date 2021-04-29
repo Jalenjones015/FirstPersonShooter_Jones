@@ -16,6 +16,10 @@ public class Health : MonoBehaviour
         curHP = maxHP;
         healthBar.SetHP(maxHP);
     }
+    private void Update()
+    {
+        Lose();
+    }
 
     public void OnTriggerEnter(Collider other)
     {
@@ -35,7 +39,9 @@ public class Health : MonoBehaviour
     {
         if (curHP <= 0)
         {
-            SceneManager.LoadScene("Lose");
+            SceneManager.LoadScene("Lose 1");
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }
